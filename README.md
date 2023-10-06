@@ -8,7 +8,7 @@ This is a simple Flask web application that provides user registration and templ
 
 Before you begin, ensure you have the following requirements installed:
 
-- Python 3.x
+- Python 3.11
 - Flask
 - Flask-PyMongo
 - Flask-JWT-Extended
