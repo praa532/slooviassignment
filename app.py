@@ -7,8 +7,8 @@ import hashlib
 from bson import ObjectId
 
 app = Flask(__name__)
-app.config['JWT_SECRET_KEY'] = 'eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6IkphdmFJblVzZSIsImV4cCI6MTY5NjYxNDU0NCwiaWF0IjoxNjk2NjE0NTQ0fQ.kE4E0y3KIFAW2_0oZ5aqHC1DMbaYL_Qg2cX0JtqdnIU'
-conn = MongoClient( 'mongodb+srv://mrprashantkrprasad:prashant007@learningmongodb.6tm3xbu.mongodb.net/sloovi')
+app.config['JWT_SECRET_KEY'] = 'Enter_your_secret_key'
+conn = MongoClient('Enter_your_mongoDB_URI')
 
 db = conn['registration_db']
 users_collection = db['users']
