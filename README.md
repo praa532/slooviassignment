@@ -17,15 +17,15 @@ Before you begin, ensure you have the following requirements installed:
 You can install these dependencies using `pip`:
 
     ```bash
-    pip install Flask Flask-PyMongo Flask-JWT-Extended pymongo
+pip install Flask Flask-PyMongo Flask-JWT-Extended pymongo
 
 # Setup
 
 1.Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/praa532/slooviassignment.git
-    cd slooviassignment
+git clone https://github.com/praa532/slooviassignment.git
+cd slooviassignment
 
 1. Configure the MongoDB connection:
 
@@ -36,7 +36,7 @@ You can install these dependencies using `pip`:
 2. Run the Flask app:
 
        ```bash
-        python app.py
+python app.py
 
 The app will start on http://localhost:5000/.
 
@@ -58,7 +58,7 @@ The app will start on http://localhost:5000/.
 
 2. Click the "Login" button to log in.
 
-#Template Management
+# Template Management
 
 1. After logging in, you can access the template management features.
 
@@ -82,7 +82,7 @@ The app also provides the following API endpoints for template management:
 - PUT /template/<template_id> - Update a specific template by ID (requires authentication).
 - DELETE /template/<template_id> - Delete a specific template by ID (requires authentication).
 
-#License
+# License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
