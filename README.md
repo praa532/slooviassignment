@@ -17,7 +17,7 @@ Before you begin, ensure you have the following requirements installed:
 You can install these dependencies using `pip`:
 
     ```bash
-pip install Flask Flask-PyMongo Flask-JWT-Extended pymongo
+    pip install Flask Flask-PyMongo Flask-JWT-Extended pymongo
 
 # Setup
 
