@@ -24,8 +24,8 @@ pip install Flask Flask-PyMongo Flask-JWT-Extended pymongo
 1.Clone the repository to your local machine:
 
     ```bash
-git clone https://github.com/praa532/slooviassignment.git
-cd slooviassignment
+    git clone https://github.com/praa532/slooviassignment.git
+    cd slooviassignment
 
 1. Configure the MongoDB connection:
 
@@ -35,8 +35,8 @@ cd slooviassignment
 
 2. Run the Flask app:
 
-       ```bash
-python app.py
+        ```bash
+        python app.py
 
 The app will start on http://localhost:5000/.
 
