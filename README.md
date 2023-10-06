@@ -40,9 +40,9 @@ You can install these dependencies using `pip`:
 
 The app will start on http://localhost:5000/.
 
-#Usage
+# Usage
 
-#User Registration
+# User Registration
 
 1. Access the registration page by going to http://localhost:5000/register in your web browser.
 
