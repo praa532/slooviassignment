@@ -8,7 +8,7 @@ This is a simple Flask web application that provides user registration and templ
 
 Before you begin, ensure you have the following requirements installed:
 
-- Python 3.x
+- Python 3.11
 - Flask
 - Flask-PyMongo
 - Flask-JWT-Extended
@@ -16,16 +16,16 @@ Before you begin, ensure you have the following requirements installed:
 
 You can install these dependencies using `pip`:
 
-```bash
-pip install Flask Flask-PyMongo Flask-JWT-Extended pymongo
+    ```bash
+    pip install Flask Flask-PyMongo Flask-JWT-Extended pymongo
 
 # Setup
 
 1.Clone the repository to your local machine:
 
-```bash
-git clone https://github.com/praa532/slooviassignment.git
-cd slooviassignment
+    ```bash
+    git clone https://github.com/praa532/slooviassignment.git
+    cd slooviassignment
 
 1. Configure the MongoDB connection:
 
@@ -35,14 +35,14 @@ cd slooviassignment
 
 2. Run the Flask app:
 
-```bash
-python app.py
+        ```bash
+        python app.py
 
 The app will start on http://localhost:5000/.
 
-#Usage
+# Usage
 
-#User Registration
+# User Registration
 
 1. Access the registration page by going to http://localhost:5000/register in your web browser.
 
@@ -58,7 +58,7 @@ The app will start on http://localhost:5000/.
 
 2. Click the "Login" button to log in.
 
-#Template Management
+# Template Management
 
 1. After logging in, you can access the template management features.
 
@@ -82,7 +82,7 @@ The app also provides the following API endpoints for template management:
 - PUT /template/<template_id> - Update a specific template by ID (requires authentication).
 - DELETE /template/<template_id> - Delete a specific template by ID (requires authentication).
 
-#License
+# License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
