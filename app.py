@@ -14,12 +14,17 @@ db = conn['registration_db']
 users_collection = db['users']
 jwt = JWTManager(app)
 
+url = 'http://127.0.0.1:5000/register'
+
 @app.route('/register', methods=['POST', 'GET'])
 def register():
         if request.method=='POST':
             try:
-                data = request.get_json()
-                first_name = data.get('first_name')
+                if request.headers['Content-Type'] != 'application/json':
+                    return jsonify({"error": "Invalid Content-Type. Use 'application/json'"}), 415
+                
+                data = request.json()
+                first_name = data.get('first_name') 
                 last_name = data.get('last_name')
                 email = data.get('email')
                 password = data.get('password')
